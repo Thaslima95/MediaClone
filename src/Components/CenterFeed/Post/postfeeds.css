@@ -1,0 +1,64 @@
+.postfeedContainer {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+  margin-top: 40px;
+}
+.postfeedWrapper {
+  padding: 15px;
+}
+.postfeedTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postprofileimage {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.postfeedTopLeft {
+  display: flex;
+  align-items: center;
+}
+.postprofileName {
+  font-size: 20px;
+  margin: 0 10px;
+}
+.postProfileDate {
+  font-size: 20px;
+}
+.postfeedCenter {
+  margin: 20px 0px;
+}
+.more {
+  cursor: pointer;
+}
+.postImage {
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+}
+.countlikes {
+  font-size: 15px;
+}
+.postfeedBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.postfeedBottomLeft {
+  display: flex;
+  align-items: center;
+}
+.likeIcons {
+  margin: 10px;
+  cursor: pointer;
+}
+.HeartIcons {
+  cursor: pointer;
+}
+.postCommentText {
+  border-bottom: 1px solid grey;
+}

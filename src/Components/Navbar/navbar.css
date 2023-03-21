@@ -1,0 +1,85 @@
+.navbarContainer {
+  height: 55px;
+  width: 100%;
+  background-color: rgb(102, 102, 181);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.navbarLeft {
+  flex: 3;
+}
+.navbarCenter {
+  flex: 5;
+}
+.navbarRight {
+  flex: 4;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+  align-items: center;
+}
+.navbarLinks {
+  margin-right: 10px;
+  margin-left: 2px;
+  cursor: pointer;
+}
+.navbarLink {
+  margin-right: 3px;
+}
+.navbarIcon {
+  display: flex;
+}
+.navbarIconItem {
+  margin-top: 3px;
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.Iconnotify {
+  display: flex;
+  width: 20px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  right: -2px;
+  top: -5px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.profilepic {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.navbarLogo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-right: 3px;
+}
+.textInput {
+  border: none;
+  width: 80%;
+}
+.textInput:focus {
+  outline: none;
+}
